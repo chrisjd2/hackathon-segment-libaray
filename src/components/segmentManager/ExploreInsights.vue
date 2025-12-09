@@ -124,7 +124,7 @@
             loadingInsights.value = true;
 
             const response = await axios.get(
-                `https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app/api/v1/segments/insights/${selectedSegment?.segmentId ? selectedSegment?.segmentId : useSegmentManagerStore.get_selectedSegment?.segmentId}`,
+                `https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app/api/v1/segments/insights/${selectedSegment?.segmentId ? selectedSegment?.segmentId : useSegmentManagerStore.get_selectedSegment?.segmentId}`,
                 {
                     headers: {
                         Authorization: `Bearer ${segmentManagerStore.token}`,

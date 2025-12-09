@@ -398,7 +398,7 @@ const hh = () => ci.get("/appConfig.json").then((o) => o.data).catch((o) => {
   }
 }, on = k0("segmentManagerStore", {
   state: () => ({
-    baseUrl: "https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app",
+    baseUrl: "https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app",
     applicationType: "",
     tenantId: "",
     brandId: "3",
@@ -5631,7 +5631,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
   __name: "StandardSegments",
   props: {
     baseUrl: {
-      default: "https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app",
+      default: "https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app",
       type: String,
       required: !0
     },
@@ -6103,7 +6103,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
       })) : L("", !0)
     ], 64));
   }
-}, gm = /* @__PURE__ */ Qe(mm, [["__scopeId", "data-v-58673e4b"]]), xm = { class: "feedback-title-wrapper" }, ym = { class: "title" }, km = { class: "feedback-text" }, vm = {
+}, gm = /* @__PURE__ */ Qe(mm, [["__scopeId", "data-v-992426cb"]]), xm = { class: "feedback-title-wrapper" }, ym = { class: "title" }, km = { class: "feedback-text" }, vm = {
   __name: "AiQueryFeedback",
   props: {
     feedback: {
@@ -6467,7 +6467,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
   props: {
     segment: Object,
     customSegmentUrl: {
-      default: "https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app",
+      default: "https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app",
       type: String,
       required: !0
     },
@@ -6599,7 +6599,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
         description: X.description,
         count: X.count || z.value,
         market: b.query.demographics.market
-      }, N = `https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app/api/v1/segments/insights/${X.segmentId}`, _e = await fetch(N, {
+      }, N = `https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app/api/v1/segments/insights/${X.segmentId}`, _e = await fetch(N, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -6627,7 +6627,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
         query: St(x.value.conditions)
       };
       try {
-        const w = await fetch("https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app/api/v1/segments", {
+        const w = await fetch("https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app/api/v1/segments", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -7159,7 +7159,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
       })) : L("", !0)
     ]));
   }
-}, _g = /* @__PURE__ */ Qe(vg, [["__scopeId", "data-v-4800161d"]]), bg = { class: "tag-section" }, Eg = { class: "rating-card" }, Sg = { class: "header" }, Ag = { class: "title" }, wg = { class: "pb-2" }, Cg = { class: "content-wrapper" }, Tg = { class: "content" }, Dg = { class: "publishers" }, Ig = { class: "publisher-item" }, Lg = { class: "ratings" }, Bg = { class: "rating" }, Fg = {
+}, _g = /* @__PURE__ */ Qe(vg, [["__scopeId", "data-v-365a43b4"]]), bg = { class: "tag-section" }, Eg = { class: "rating-card" }, Sg = { class: "header" }, Ag = { class: "title" }, wg = { class: "pb-2" }, Cg = { class: "content-wrapper" }, Tg = { class: "content" }, Dg = { class: "publishers" }, Ig = { class: "publisher-item" }, Lg = { class: "ratings" }, Bg = { class: "rating" }, Fg = {
   __name: "TagCard",
   props: {
     tags: {
@@ -19223,7 +19223,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
         try {
           G.value = !0;
           const ne = await ci.get(
-            `https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app/api/v1/segments/insights/${m != null && m.segmentId ? m == null ? void 0 : m.segmentId : (D = on.get_selectedSegment) == null ? void 0 : D.segmentId}`,
+            `https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app/api/v1/segments/insights/${m != null && m.segmentId ? m == null ? void 0 : m.segmentId : (D = on.get_selectedSegment) == null ? void 0 : D.segmentId}`,
             {
               headers: {
                 Authorization: `Bearer ${b.token}`,
@@ -19384,12 +19384,12 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
       ]));
     };
   }
-}, y3 = /* @__PURE__ */ Qe(x3, [["__scopeId", "data-v-928ac36c"]]), k3 = { key: 0 }, v3 = { key: 1 }, _3 = {
+}, y3 = /* @__PURE__ */ Qe(x3, [["__scopeId", "data-v-df3d12b6"]]), k3 = { key: 0 }, v3 = { key: 1 }, _3 = {
   __name: "SegmentManagerModal",
   props: {
     baseUrl: {
       type: String,
-      default: "https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app"
+      default: "https://hackathon-sm-standard-segments-838902823068.europe-west1.run.app"
     },
     customSegmentUrl: {
       type: String
@@ -19492,7 +19492,7 @@ const Gh = { class: "d-flex align-items-center mb-30" }, Mh = {
       _: 1
     }));
   }
-}, B3 = /* @__PURE__ */ Qe(_3, [["__scopeId", "data-v-be33cd3f"]]);
+}, B3 = /* @__PURE__ */ Qe(_3, [["__scopeId", "data-v-685ebb90"]]);
 export {
   B3 as BetaSegmentManagerModal,
   _g as CustomSegments,
