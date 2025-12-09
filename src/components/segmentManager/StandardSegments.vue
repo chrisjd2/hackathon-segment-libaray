@@ -208,7 +208,7 @@
 
     const props = defineProps({
         baseUrl: {
-            default: 'https://sm-standard-segments-838902823068.europe-west1.run.app',
+            default: 'https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app',
             type: String,
             required: true,
         },

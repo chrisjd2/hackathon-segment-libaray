@@ -311,7 +311,7 @@
     const props = defineProps({
         segment: Object,
         customSegmentUrl: {
-            default: 'https://sm-standard-segments-838902823068.europe-west1.run.app',
+            default: 'https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app',
             type: String,
             required: true,
         },
@@ -543,7 +543,7 @@
             market: segmentManagerStore.query.demographics.market,
         };
 
-        const endpoint = `https://sm-standard-segments-838902823068.europe-west1.run.app/api/v1/segments/insights/${segment.segmentId}`;
+        const endpoint = `https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app/api/v1/segments/insights/${segment.segmentId}`;
 
         const res = await fetch(endpoint, {
             method: 'POST',
@@ -579,7 +579,7 @@
         };
 
         try {
-            const res = await fetch('https://sm-standard-segments-838902823068.europe-west1.run.app/api/v1/segments', {
+            const res = await fetch('https://hackathon-sm-standard-segments-979737143073.europe-west1.run.app/api/v1/segments', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
